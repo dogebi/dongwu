@@ -24,8 +24,8 @@
     <link rel="icon" href="/animo-face/favicon.ico" type="image/x-icon">
    
 
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f2f4cc0cd471903"></script>
     
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e64b3727e862b06"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GV47MMC03G"></script>
 <script>
@@ -187,7 +187,7 @@
 -->
                 <div class="modal-footer d-flex justify-content-center">
                     <button type="button p-2" class="try-again-btn" onclick="gaReload2();">
-                        <span class="try-again-text">다른 사진으로 재시도</span>
+                        <span class="try-again-text">再来一张</span>
                     </button>
                 </div>
             </div>
@@ -195,13 +195,13 @@
     </div>
     <script>
         function gaReload1() {
-            gtag('event', '다른 사진으로 재시도 1차', {
-                'event_category': '다른 사진으로 재시도'
+            gtag('event', '再来一张试一试1', {
+                'event_category': '再来一张试一试'
             });
         }
         function gaReload2() {
-            gtag('event', '다른 사진으로 재시도 2차', {
-                'event_category': '다른 사진으로 재시도'
+            gtag('event', '再来一张试一试1', {
+                'event_category': '再来一张试一试'
             });
             window.location.reload();
         }
@@ -386,28 +386,28 @@
                 var labelTitle;
                 switch (prediction[i].className) {
                     case "dog":
-                        labelTitle = "강아지상"
+                        labelTitle = "狗相"
                         break;
                     case "cat":
-                        labelTitle = "고양이상"
+                        labelTitle = "猫相"
                         break;
                     case "rabbit":
-                        labelTitle = "토끼상"
+                        labelTitle = "兔相"
                         break;
                     case "dinosaur":
-                        labelTitle = "공룡상"
+                        labelTitle = "恐龙相"
                         break;
                     case "bear":
-                        labelTitle = "곰상"
+                        labelTitle = "熊相"
                         break;
                     case "deer":
-                        labelTitle = "사슴상"
+                        labelTitle = "鹿相"
                         break;
                     case "fox":
-                        labelTitle = "여우상"
+                        labelTitle = "狐狸相"
                         break;
                     default:
-                        labelTitle = "알수없음"
+                        labelTitle = "无法辨别"
                 }
                 var label = "<div class='animal-label d-flex align-items-center'>" + labelTitle + "</div>"
                 var bar = "<div class='bar-container position-relative container'><div class='" + prediction[i].className + "-box'></div><div class='d-flex justify-content-center align-items-center " + prediction[i].className + "-bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round(prediction[i].probability.toFixed(2) * 100) + "%</span></div></div>"
