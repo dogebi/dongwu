@@ -1,0 +1,3625 @@
+@charset "UTF-8";
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_common\.scss}line{font-family:\000031}}
+html {
+  box-sizing: border-box;
+  user-select: none;
+  font-size: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_common\.scss}line{font-family:\0000310}}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_common\.scss}line{font-family:\0000318}}
+ul,
+ol {
+  list-style: none;
+  list-style-position: inside;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_common\.scss}line{font-family:\0000324}}
+a {
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_common\.scss}line{font-family:\0000328}}
+img {
+  border: none;
+  display: block;
+  object-fit: cover;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_common\.scss}line{font-family:\0000334}}
+.fl {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_common\.scss}line{font-family:\0000338}}
+.fr {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_common\.scss}line{font-family:\0000342}}
+.clear__both::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_common\.scss}line{font-family:\0000348}}
+input,
+textarea,
+button {
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_common\.scss}line{font-family:\0000364}}
+.con__width {
+  max-width: 94%;
+  margin: 0 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_common\.scss}line{font-family:\0000369}}
+.wrap {
+  margin: 0 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_common\.scss}line{font-family:\0000373}}
+.tox-dialog {
+  margin: 80px auto !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_common\.scss}line{font-family:\0000376}}
+.tox-confirm-dialog {
+  margin: 80px auto !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\000033}}
+.top .main {
+  background-color: #fff;
+  margin-top: 6.25rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\000038}}
+.top .carousel__banner {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\0000313}}
+.top .banner__container {
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\0000319}}
+.top .banner__slide img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\0000324}}
+.top .banner__next, .top .banner__prev {
+  width: 2.5rem;
+  height: 4.375rem;
+  position: absolute;
+  top: 50%;
+  outline: none;
+  color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\0000332}}
+.top .banner__next {
+  left: auto;
+  right: 0;
+  background: url(../img/common/top/banner__right.png) no-repeat;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\0000339}}
+.top .banner__prev {
+  left: 0;
+  right: auto;
+  background: url(../img/common/top/banner__left.png) no-repeat;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\0000347}}
+.top .pagin_wrap {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 99;
+  height: 8.125rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\0000360}}
+.top .pagin_wrap::before {
+  content: "";
+  display: block;
+  width: 9.0625rem;
+  height: 0.75rem;
+  background: url(../img/common/top/pagin_left.png) no-repeat;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\0000368}}
+.top .pagin_wrap::after {
+  content: "";
+  display: block;
+  width: 9.0625rem;
+  height: 0.75rem;
+  background: url(../img/common/top/pagin_right.png) no-repeat;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\0000378}}
+.top .banner__pagination {
+  /* border: 1px solid green; */
+  position: unset !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\0000387}}
+.top .banner__pagination .swiper-pagination-bullet {
+  width: 2.25rem;
+  height: 2.25rem;
+  background: url(../img/common/top/pagin.png) no-repeat;
+  background-size: 100% 100%;
+  border-radius: 0;
+  opacity: 1;
+  transition: .2s;
+  z-index: 99;
+  outline: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\0000398}}
+.top .banner__pagination .swiper-pagination-bullet-active {
+  background: url(../img/common/top/pagin_active.png) no-repeat;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003112}}
+.top .carousel__list01--con {
+  position: relative;
+  padding: 0.9375rem 2.2rem 1.5625rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003115}}
+.top .carousel__list01--con .more {
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-align: right;
+  height: 4.0625rem;
+  line-height: 4.0625rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003121}}
+.top .carousel__list01--con .more a {
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003126}}
+.top .carousel__list01--con .more i {
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.8125rem;
+  background: url(../img/common/top/ico_more.png) no-repeat;
+  background-size: 100% 100%;
+  margin-left: 0.3125rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003137}}
+.top .carousel__list01--prev,
+.top .carousel__list01--next,
+.top .carousel__list02--next,
+.top .carousel__list02--prev {
+  width: 5.4375rem !important;
+  height: 5.4375rem !important;
+  border: 1px solid #aaa;
+  position: absolute;
+  top: 42%;
+  z-index: 99;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003148}}
+.top .carousel__list01--prev,
+.top .carousel__list02--prev {
+  background: url(../img/common/top/c_list01_prev_03.jpg) no-repeat;
+  background-size: 100% 100%;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003155}}
+.top .carousel__list01--next,
+.top .carousel__list02--next {
+  background: url(../img/common/top/c_list01_next_03.jpg) no-repeat;
+  background-size: 100% 100%;
+  right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003163}}
+.top .carousel__list01--wrap {
+  overflow-x: auto;
+  /* 隐藏滚动条 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003166}}
+.top .carousel__list01--wrap::-webkit-scrollbar {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003167}}
+.top .carousel__list01--wrap .carousel__list01 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003174}}
+.top .carousel__list01--wrap .carousel__list01 .list01__con {
+  background: #f2f2f2;
+  position: relative;
+  margin: 0 1.2rem;
+  width: 27.5rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003179}}
+.top .carousel__list01--wrap .carousel__list01 .list01__con .list01__con--img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003181}}
+.top .carousel__list01--wrap .carousel__list01 .list01__con .list01__con--img img {
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003186}}
+.top .carousel__list01--wrap .carousel__list01 .list01__con .activity {
+  position: absolute;
+  right: 0;
+  top: 0;
+  min-width: 52%;
+  height: 1.625rem;
+  line-height: 1.625rem;
+  text-align: center;
+  font-size: 0.9375rem;
+  color: #fff;
+  max-width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003197}}
+.top .carousel__list01--wrap .carousel__list01 .list01__con .activity.patch {
+  background-color: rgba(26, 46, 51, 0.6);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003200}}
+.top .carousel__list01--wrap .carousel__list01 .list01__con .activity.event {
+  background-color: rgba(118, 15, 18, 0.6);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003203}}
+.top .carousel__list01--wrap .carousel__list01 .list01__con .activity.news {
+  background-color: rgba(26, 102, 144, 0.6);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003209}}
+.top .carousel__list01--wrap .carousel__list01 .list01__info {
+  text-align: center;
+  padding: 0 0.3125rem 1.25rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003214}}
+.top .carousel__list01--wrap .carousel__list01 .list01__info .tit {
+  font-size: 1.5rem;
+  color: #333333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 1.875rem;
+  height: 3rem;
+  line-height: 3rem;
+  margin-top: 0.3125rem;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003226}}
+.top .carousel__list01--wrap .carousel__list01 .list01__info .disc {
+  font-size: 1.1875rem;
+  color: #333333;
+  line-height: 1.6875rem;
+  margin-top: 0.3125rem;
+  padding: 0 0.3125rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  height: 5.25rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003238}}
+.top .carousel__list01--wrap .carousel__list01 .list01__info .date {
+  font-size: 0.9375rem;
+  color: #666666;
+  line-height: 1.6875rem;
+  margin: 1.25rem 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003295}}
+.top .video__wrap {
+  background-size: 100%;
+  padding: 2.5rem 3.875rem 1.40625rem;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003301}}
+.top .video__wrap .tit__h {
+  font-size: 3.125rem;
+  font-style: italic;
+  color: #140b20;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003305}}
+.top .video__wrap .tit__h img {
+  height: 2.1rem;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003311}}
+.top .video__wrap .disc p {
+  font-size: 1.25rem;
+  font-style: italic;
+  color: #140b20;
+  line-height: 1.875rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003319}}
+.top .video__wrap .popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003320}}
+.top .video__wrap .popup.on {
+  display: flex;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003333}}
+.top .video__wrap .popup .popup__wrap {
+  width: 100%;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003336}}
+.top .video__wrap .popup .popup__wrap .popup--download__close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 1.4rem 1.2rem 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003340}}
+.top .video__wrap .popup .popup__wrap .popup--download__close button {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: #000;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 1px solid #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003348}}
+.top .video__wrap .popup .popup__wrap .popup--download__close button.popup__download {
+  background-image: url(../img/common/top/popup__download.png);
+  border-right: 0;
+  background-size: 45% 54%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003353}}
+.top .video__wrap .popup .popup__wrap .popup--download__close button.popup__close {
+  background-image: url(../img/common/top/popup__close.png);
+  background-size: 50% 60%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003359}}
+.top .video__wrap .popup .popup__wrap .btn button {
+  width: 2.5rem;
+  height: 4.375rem;
+  position: absolute;
+  top: 52%;
+  z-index: 999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003366}}
+.top .video__wrap .popup .popup__wrap .btn button.popup__left {
+  left: 0;
+  background: url(../img/common/top/banner__left.png) no-repeat;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003371}}
+.top .video__wrap .popup .popup__wrap .btn button.popup__right {
+  right: 0;
+  background: url(../img/common/top/banner__right.png) no-repeat;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003377}}
+.top .video__wrap .popup .popup__wrap .video__popup--list {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  left: 0;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003383}}
+.top .video__wrap .popup .popup__wrap .video__popup--list li {
+  width: 100%;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003386}}
+.top .video__wrap .popup .popup__wrap .video__popup--list li img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003389}}
+.top .video__wrap .popup .popup__wrap .video__popup--list li iframe {
+  width: 100%;
+  height: 246px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003396}}
+.top .video__wrap .popup .popup__wrap .car__popup {
+  width: 100%;
+  border: 1px solid red;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003400}}
+.top .video__wrap .popup .popup__wrap .popup__container {
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003405}}
+.top .video__wrap .popup .popup__wrap .popup__slide {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003418}}
+.top .video__list {
+  margin-top: 1.5rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003420}}
+.top .video__list li {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003423}}
+.top .video__list li img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003428}}
+.top .video__list .plus {
+  display: block;
+  width: 5.125rem;
+  height: 5.125rem;
+  background: url(../img/common/top/ico_plus.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0.375rem;
+  bottom: 0.125rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003438}}
+.top .video__list .plus__video {
+  display: block;
+  width: 2.1875rem;
+  height: 2.5rem;
+  background-image: url(../img/common/top/ico_play.png);
+  background-size: 2.1875rem 2.5rem;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 1.875rem;
+  bottom: 0.375rem;
+  z-index: 99;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003450}}
+.top .video__list .tit__v {
+  font-size: 1.5rem;
+  color: #fff;
+  height: 3.0625rem;
+  line-height: 3.0625rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 0.875rem;
+  background-color: rgba(10, 19, 13, 0.8);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003470}}
+.top .video__list .video__child {
+  display: flex;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003472}}
+.top .video__list .video__child li {
+  width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003478}}
+.top .carousel__list02 {
+  position: relative;
+  margin-top: 0.625rem;
+  background: url(../img/common/top/list02__bg.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003488}}
+.top .list02__container {
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003492}}
+.top .list02__container .list02__slide .list02__con--img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003494}}
+.top .list02__container .list02__slide .list02__con--img img {
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003500}}
+.top .list02__container .list02__con--img::before {
+  content: "";
+  display: block;
+  background: linear-gradient(to bottom, rgba(47, 48, 49, 0) 45%, rgba(47, 48, 49, 0.3) 52%, rgba(47, 48, 49, 0.75) 62%, #242323 92%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 8;
+  cursor: pointer;
+  opacity: 0;
+  transition: all .2s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003514}}
+.top .list02__container .list02__con--img::after {
+  content: "";
+  display: block;
+  background-image: url(../img/common/top/listImg__hover_03.png);
+  background-size: 100%;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  cursor: pointer;
+  opacity: 0;
+  transition: all .2s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003531}}
+.top .list02__container .list02__con--img:hover::before {
+  opacity: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003534}}
+.top .list02__container .list02__con--img:hover::after {
+  opacity: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003540}}
+.top .list02__next, .top .list02__prev {
+  width: 5.4375rem !important;
+  height: 5.4375rem !important;
+  border: 1px solid #aaa;
+  position: absolute;
+  top: 50%;
+  z-index: 99;
+  outline: none;
+  color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003551}}
+.top .list02__prev {
+  background: url(../img/common/top/c_list01_prev_03.jpg) no-repeat;
+  background-size: 100% 100%;
+  left: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003556}}
+.top .list02__next {
+  background: url(../img/common/top/c_list01_next_03.jpg) no-repeat;
+  background-size: 100% 100%;
+  right: 1rem;
+}
+
+@media only screen and (min-width: 568px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003568}}
+  .top .video__wrap .popup .popup__wrap .video__popup--list {
+    width: 70%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003573}}
+  .top .video__wrap .popup .popup__wrap .video__popup--list li iframe {
+    height: 256px;
+  }
+}
+@media only screen and (min-width: 667px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003590}}
+  .top .video__wrap .popup .popup__wrap .video__popup--list {
+    width: 66%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_top\.scss}line{font-family:\00003595}}
+  .top .video__wrap .popup .popup__wrap .video__popup--list li iframe {
+    height: 310px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\000033}}
+.news .main {
+  background-color: #fff;
+  margin-top: 6.25rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\000038}}
+.news .carousel__news--wrap {
+  background: url(../img/common/news/car__news__bg.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\0000314}}
+.news .car__tit {
+  font-size: 3.75rem;
+  color: #181a1f;
+  font-weight: bold;
+  text-align: center;
+  height: 8.75rem;
+  line-height: 8.75rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\0000322}}
+.news .carousel__news {
+  width: 76%;
+  margin: 0 auto;
+  padding: 0.625rem 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\0000328}}
+.news .carousel__wrap {
+  width: 5000px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\0000330}}
+.news .carousel__wrap li {
+  width: 74%;
+  float: left;
+  background: #fff;
+  margin: 0 1.9rem;
+  box-shadow: 0 0.375rem 0.75rem rgba(0, 0, 0, 0.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\0000339}}
+.news .news__container {
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\0000343}}
+.news .news__slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  background: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\0000350}}
+.news .carousel__news--info {
+  background: #fff;
+  margin: 0 0.625rem 0.625rem;
+  box-shadow: 0 0.375rem 0.75rem rgba(0, 0, 0, 0.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\0000355}}
+.news .carousel__news--info .car__img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\0000357}}
+.news .carousel__news--info .car__img img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\0000361}}
+.news .carousel__news--info .car__con {
+  padding: 0 0.75rem 0.75rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\0000363}}
+.news .carousel__news--info .car__con .tit {
+  font-size: 1.6875rem;
+  color: #333333;
+  text-align: center;
+  margin-top: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\0000372}}
+.news .carousel__news--info .car__con .disc {
+  font-size: 0.75rem;
+  color: #666666;
+  line-height: 1.25rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  height: 3.75rem;
+  margin-top: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\0000383}}
+.news .carousel__news--info .car__con .car__date {
+  font-size: 0.75rem;
+  color: #666666;
+  text-align: center;
+  margin-top: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\0000389}}
+.news .carousel__news--info .car__con .pages {
+  font-size: 0.625rem;
+  color: #150101;
+  text-align: right;
+  margin-top: 0.625rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\0000394}}
+.news .carousel__news--info .car__con .pages span {
+  font-size: 0.625rem;
+  color: #f85759;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\00003102}}
+.news .news__next,
+.news .news__prev {
+  width: 4.25rem;
+  height: 4.25rem;
+  position: absolute;
+  top: 62%;
+  color: transparent;
+  outline: none;
+  border: 1px solid #858585;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\00003112}}
+.news .news__prev {
+  background: url(../img/common/news/c_list01_prev_03.jpg) no-repeat;
+  background-size: 100% 100%;
+  left: 1.8%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\00003117}}
+.news .news__next {
+  background: url(../img/common/news/c_list01_next_03.jpg) no-repeat;
+  background-size: 100% 100%;
+  right: 1.8%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\00003123}}
+.news .news__nav {
+  padding: 1.6rem .8rem;
+  display: flex;
+  flex-wrap: wrap;
+  background: #efefef;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\00003128}}
+.news .news__nav li {
+  flex: 1;
+  height: 4rem;
+  border: 1px solid #acacac;
+  background: #fff;
+  margin: -0.5px;
+  transition: all 0.1s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\00003135}}
+.news .news__nav li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 1.2rem;
+  color: #333333;
+  transition: all 0.1s;
+  padding: 0 .4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\00003147}}
+.news .news__nav li.active {
+  background: #30343f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\00003149}}
+.news .news__nav li.active a {
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\00003155}}
+.news .news__list {
+  padding: 0 .8rem;
+  background: #f2f4f7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\00003158}}
+.news .news__list li {
+  border-top: 1px solid #b5b5b5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\00003165}}
+.news .news__list li a {
+  width: 100%;
+  color: #666666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\00003173}}
+.news .news__list li img {
+  width: 100%;
+  object-fit: cover;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\00003179}}
+.news .news__list li .new__list--info .tit {
+  font-size: 2.2rem;
+  color: #333333;
+  font-weight: bold;
+  margin-top: .8rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\00003188}}
+.news .news__list li .new__list--info .desc {
+  font-size: 1.375rem;
+  color: #666666;
+  line-height: 2rem;
+  margin-top: 0.375rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\00003197}}
+.news .news__list li .new__list--info .date {
+  font-size: 1.375rem;
+  color: #666666;
+  margin-top: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news\.scss}line{font-family:\00003205}}
+.news .news__list li:first-of-type {
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\000032}}
+.header {
+  background-color: #181a1f;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  transition: all 0.1s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\0000310}}
+.header.collapse {
+  top: -6.25rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\0000315}}
+.header__con {
+  height: 6.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\0000322}}
+.menu__btn {
+  width: 2.875rem;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\0000325}}
+.menu__btn .line {
+  width: 100%;
+  background: #fff;
+  height: 0.25rem;
+  margin: 0.625rem 0;
+  border-radius: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\0000334}}
+.logo {
+  display: block;
+  height: 5.0625rem;
+  margin-left: -0.2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\0000338}}
+.logo img {
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\0000343}}
+.ico__user {
+  display: block;
+  height: 2.25rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\0000346}}
+.ico__user img {
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\0000349}}
+.ico__user img.def {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\0000352}}
+.ico__user img.on {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\0000356}}
+.ico__user.on img.def {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\0000359}}
+.ico__user.on img.on {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\0000365}}
+.menu__wrap {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: -100%;
+  z-index: 999;
+  transition: 0.2s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\0000374}}
+.menu__wrap .menu {
+  width: 19.5rem;
+  height: 100%;
+  border-right: 1px solid #6e6f70;
+  position: relative;
+  background-image: url(../img/common/header/menu_bg.png);
+  background-color: #181a1f;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\0000385}}
+.menu__wrap.on {
+  left: 0;
+}
+
+/* .menu_wrap.on .menu{
+    left: 0;
+} */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\0000394}}
+.menu__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.875rem 0.625rem 0.625rem 1.5rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003101}}
+.menu__close--btn {
+  width: calc(100% - 19.5rem);
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003109}}
+.menu__close {
+  width: 2rem;
+  height: 2.5rem;
+  background: url(../img/common/header/menu_close.png);
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003117}}
+.menu__lang {
+  font-size: 1.25rem;
+  color: #919193;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003123}}
+.menu__lang.lang__none {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003126}}
+.menu__lang img {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.6rem;
+  margin-right: 0.5rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003132}}
+.menu__lang a {
+  display: inline-block;
+  color: #919193;
+  padding: 0 0.625rem;
+  font-size: 1.25rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003138}}
+.menu__lang a:hover {
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003143}}
+.menu__logo {
+  width: 17rem;
+  margin: 1rem auto 0;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003147}}
+.menu__logo img {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003152}}
+.menu__nav {
+  margin-top: 1.75rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003154}}
+.menu__nav a {
+  color: #fefefe;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003157}}
+.menu__nav > li {
+  border-bottom: 1px solid #4b443e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003159}}
+.menu__nav > li > a {
+  padding: 0 1.44rem;
+  display: block;
+  height: 4rem;
+  line-height: 4rem;
+  position: relative;
+  font-size: 1.6rem;
+  transition: color 0.3s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003169}}
+.menu__nav > li.active > a {
+  color: #eaa014;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003172}}
+.menu__nav > li.active > a i.ico__menu {
+  background: url(../img/common/header/ico_menu_active.png) no-repeat;
+  background-size: 100% 100%;
+  transition: all 0.3s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003179}}
+.menu__nav > li.active .menu__list {
+  background-color: #0d0f13;
+  padding: 0.625rem 0;
+  max-height: none;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003188}}
+.menu__nav i.ico__menu {
+  width: 1.25rem;
+  height: 0.6875rem;
+  background: url(../img/common/header/ico_menu.png) no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  position: absolute;
+  right: 1.4375rem;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.3s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003201}}
+.menu__nav .menu__list {
+  background-color: #0d0f13;
+  padding: 0 0;
+  max-height: 0rem;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003208}}
+.menu__nav .menu__list > li > a {
+  font-size: 1.4rem;
+  padding: 0 2.125rem;
+  line-height: 3.2rem;
+}
+
+/* .menu__nav .menu__list>li{
+} */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003221}}
+.menu__login {
+  width: 15.625rem;
+  height: 3.75rem;
+  background-color: #30343f;
+  margin: 1.69rem auto;
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003229}}
+.menu__login button {
+  width: 100%;
+  height: 86%;
+  border-top: 1px solid #8c95bc;
+  border-bottom: 1px solid #8c95bc;
+  background-color: transparent;
+  font-size: 1.75rem;
+  color: #fefff5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003238}}
+.menu__login button.logout {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003241}}
+.menu__login button.login {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003244}}
+.menu__login:active {
+  background-color: #494f65;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003248}}
+.menu__login.on button.logout {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003251}}
+.menu__login.on button.login {
+  display: none;
+}
+
+@media only screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_header\.scss}line{font-family:\00003258}}
+  .menu__nav > li > a {
+    font-size: 1.6rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\000032}}
+.footer__bottom {
+  display: flex;
+  width: 100%;
+  height: 6.25rem;
+  background-color: #292929;
+  border-bottom: 1px solid #4f5050;
+  justify-content: center;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\0000311}}
+.footer__bottom li {
+  width: 4.125rem;
+  margin: 0 5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\0000315}}
+.footer__bottom li img {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\0000321}}
+.footer {
+  background-color: #22211f;
+  border-top: 1px solid #0f0f0e;
+  padding: .625rem 0.3125rem 0;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\0000327}}
+.footer .foo__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\0000334}}
+.footer .foo__logo01 {
+  width: 8.75rem;
+  margin: 1rem 1rem 1.25rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\0000339}}
+.footer .foo__logo02 {
+  width: 7.5rem;
+  margin: .1rem 1rem 1.25rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\0000345}}
+.footer .footer__wrap {
+  position: relative;
+  padding: 0 1rem;
+  max-width: 340px;
+  margin: .2rem auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\0000351}}
+.footer .footer__wrap .grade {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: .45rem 0;
+  border-radius: .7rem;
+  margin-top: .4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\0000364}}
+.footer .footer__wrap .grade .grade__icon {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\0000368}}
+.footer .footer__wrap .grade .grade__icon li {
+  width: 5.6rem;
+  height: 6.6rem;
+  border-radius: 1rem;
+  background: #040300;
+  margin-right: .3rem;
+  text-align: center;
+  padding-top: .3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\0000376}}
+.footer .footer__wrap .grade .grade__icon li:last-of-type {
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\0000379}}
+.footer .footer__wrap .grade .grade__icon li img {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: .7rem;
+  overflow: hidden;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\0000386}}
+.footer .footer__wrap .grade .grade__icon li p {
+  font-size: .5rem;
+  color: #ffffff;
+  line-height: 1.4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\0000393}}
+.footer .footer__wrap .grade .grade__main {
+  margin-top: .6rem;
+  border: 1px solid #3a3e5d;
+  background: #a31639;
+  border-radius: 1rem;
+  padding: 0.4rem .8rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\00003101}}
+.footer .footer__wrap .grade .grade__main table tr td {
+  font-size: 0.6rem;
+  color: #f59db8;
+  line-height: 1.4;
+  padding-right: .5rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\00003106}}
+.footer .footer__wrap .grade .grade__main table tr td:nth-of-type(2n) {
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\00003116}}
+.footer .footer__wrap.en .foo__list {
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\00003119}}
+.footer .footer__wrap.en .copyright {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\00003123}}
+.footer .foo__list {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-bottom: .4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\00003129}}
+.footer .foo__list li {
+  border-left: .05rem solid #dbdbdb;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\00003133}}
+.footer .foo__list li:first-of-type {
+  padding-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\00003137}}
+.footer .foo__list li a {
+  display: block;
+  font-size: 0.875rem;
+  color: #dbdbdb;
+  height: .8rem;
+  line-height: .8rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\00003146}}
+.footer .foo__list li:first-of-type {
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\00003151}}
+.footer .footer__info {
+  margin-bottom: .3rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\00003158}}
+.footer .footer__info li {
+  display: inline-block;
+  color: #8c8c8c;
+  font-size: 0.75rem;
+  border-right: .05rem solid #949596;
+  margin-right: .3rem;
+  padding-right: .3rem;
+  height: .8rem;
+  line-height: .8rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\00003167}}
+.footer .footer__info li:last-child {
+  border-right: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\00003176}}
+.footer .copyright {
+  font-size: 0.875rem;
+  color: #dbdbdb;
+  height: 2.125rem;
+  line-height: 2.125rem;
+  padding: 0 0.375rem;
+  text-align: left;
+  padding-bottom: 3.5rem;
+}
+
+@media only screen and (max-width: 414px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\00003189}}
+  .footer .foo__list li a {
+    font-size: 0.75rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\00003192}}
+  .footer .copyright {
+    font-size: 0.75rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_footer\.scss}line{font-family:\00003195}}
+  .footer .copyright {
+    margin-bottom: .5rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_cookies\.scss}line{font-family:\000032}}
+#cookies__box {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 100;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_cookies\.scss}line{font-family:\0000310}}
+#cookies__box .cookies__scalebox {
+  box-sizing: border-box;
+  padding: 0 1.4375rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  min-height: 3.4375rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_cookies\.scss}line{font-family:\0000318}}
+#cookies__box .cookies__scalebox p.cookies__agreeninfo {
+  width: 23.125rem;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  letter-spacing: -0.06em;
+  color: #fefdfd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_cookies\.scss}line{font-family:\0000325}}
+#cookies__box .cookies__scalebox p.cookies__agreeninfo a.cookies__moreinfobtn {
+  color: #eaa014;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_cookies\.scss}line{font-family:\0000328}}
+#cookies__box .cookies__scalebox p.cookies__agreeninfo a.cookies__moreinfobtn:hover {
+  color: #e6b35a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_cookies\.scss}line{font-family:\0000334}}
+#cookies__box .cookies__scalebox div.cookies__btnbox {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  /* 修改6.25到此 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_cookies\.scss}line{font-family:\0000340}}
+#cookies__box .cookies__scalebox div.cookies__btnbox button {
+  box-sizing: border-box;
+  font-size: 0.9128rem;
+  text-align: center;
+  line-height: 1.8125rem;
+  width: 6.5rem;
+  height: 1.8125rem;
+  border-radius: 0.1875rem;
+  color: #ffffff;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_cookies\.scss}line{font-family:\0000355}}
+#cookies__box .cookies__scalebox div.cookies__btnbox button.cookies_declinebtn {
+  background: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_cookies\.scss}line{font-family:\0000358}}
+#cookies__box .cookies__scalebox div.cookies__btnbox button.cookies_declinebtn:hover {
+  background: #ffffff;
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_cookies\.scss}line{font-family:\0000364}}
+#cookies__box .cookies__scalebox div.cookies__btnbox button.cookies_acceptbtn {
+  margin-left: 0.375rem;
+  background: #f75759;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_cookies\.scss}line{font-family:\0000368}}
+#cookies__box .cookies__scalebox div.cookies__btnbox button.cookies_acceptbtn:hover {
+  background: #f58586;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\000031}}
+html {
+  font-size: 10px !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\000035}}
+.news__pad div.main__box {
+  margin-top: 6.4rem;
+  background: #f2f4f7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\000039}}
+.news__pad div.main__box div.goback__area {
+  height: 3.48rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #999999;
+  padding-left: 2.43rem;
+  display: flex;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\0000317}}
+.news__pad div.main__box div.goback__area a img {
+  width: 1.05rem;
+  line-height: 1.87rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\0000324}}
+.news__pad div.main__box div.greeting__info {
+  padding: 1.72rem 2.43rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\0000326}}
+.news__pad div.main__box div.greeting__info button.red__button {
+  color: #fff;
+  background: #f85759;
+  font-size: 1.25rem;
+  line-height: 2.73rem;
+  height: 2.73rem;
+  text-align: center;
+  padding: 0 0.75rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\0000335}}
+.news__pad div.main__box div.greeting__info div.blackbtn__box {
+  border-bottom: 1px solid #4c4d4d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\0000337}}
+.news__pad div.main__box div.greeting__info div.blackbtn__box > button.black__button {
+  color: #fff;
+  background: #333333;
+  font-size: 1.39rem;
+  line-height: 3.9rem;
+  height: 3.9rem;
+  padding: 0 0.71rem;
+  margin-top: 2.81rem;
+  margin-bottom: 1.69rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\0000349}}
+.news__pad div.main__box div.greeting__info h1.art__title {
+  font-size: 2.18rem;
+  color: #333333;
+  margin-top: 1.12rem;
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\0000360}}
+.news__pad div.main__box div.greeting__info p.date {
+  font-size: 0.94rem;
+  color: #666666;
+  margin-top: 0.56rem;
+  margin-bottom: 1.76rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\0000366}}
+.news__pad div.main__box div.greeting__info div.greet__detail {
+  border-top: 1px solid #4c4d4d;
+  border-bottom: 1px solid #4c4d4d;
+  padding-top: 2.73rem;
+  padding-bottom: 3.18rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\0000371}}
+.news__pad div.main__box div.greeting__info div.greet__detail img {
+  max-width: 100%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\0000376}}
+.news__pad div.main__box div.greeting__info div.greet__detail div.greet__pic img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\0000380}}
+.news__pad div.main__box div.greeting__info div.greet__detail p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\0000392}}
+.news__pad div.main__box ul.tabs__show {
+  padding-bottom: 2.77rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\0000394}}
+.news__pad div.main__box ul.tabs__show li {
+  box-sizing: border-box;
+  padding: 2.43rem 2.02rem 2.43rem;
+  border-bottom: 1px solid #b8b9b9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\0000398}}
+.news__pad div.main__box ul.tabs__show li:first-child {
+  border-top: 1px solid #b8b9b9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\00003101}}
+.news__pad div.main__box ul.tabs__show li a {
+  display: flex;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\00003104}}
+.news__pad div.main__box ul.tabs__show li a img {
+  width: 19.21rem;
+  height: 7.49rem;
+  margin-right: 2.06rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\00003109}}
+.news__pad div.main__box ul.tabs__show li a p {
+  font-size: 1.69rem;
+  color: #999999;
+  flex: 1;
+  letter-spacing: -0.02em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 414px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\00003128}}
+  .news__pad div.main__box ul.tabs__show {
+    padding-bottom: 2rem;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\00003130}}
+  .news__pad div.main__box ul.tabs__show li {
+    box-sizing: border-box;
+    padding: 2rem 1.7rem 2rem;
+    border-bottom: 1px solid #b8b9b9;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\00003134}}
+  .news__pad div.main__box ul.tabs__show li:first-child {
+    border-top: 1px solid #b8b9b9;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\00003137}}
+  .news__pad div.main__box ul.tabs__show li a {
+    display: flex;
+    align-items: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\00003140}}
+  .news__pad div.main__box ul.tabs__show li a img {
+    width: 13rem;
+    height: 5.07rem;
+    display: inline-block;
+    margin-right: 1rem;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\00003146}}
+  .news__pad div.main__box ul.tabs__show li a p {
+    font-size: 1.3rem;
+    color: #999999;
+    flex: 1;
+    letter-spacing: -0.02em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\00003162}}
+.greet__detail {
+  border-top: 1px solid #4c4d4d;
+  border-bottom: 1px solid #4c4d4d;
+  padding-top: 2.73rem;
+  word-break: break-all;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\00003167}}
+.greet__detail img {
+  max-width: 100%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\00003171}}
+.greet__detail p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_news-details\.scss}line{font-family:\00003178}}
+.greet__detail iframe {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 415px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\000036}}
+  div.game__box {
+    margin-top: 6.25rem !important;
+    height: 937.5px;
+    overflow: hidden;
+    background: url("../img/common/game/bg.jpg") no-repeat center top/cover;
+    background-clip: border-box;
+    padding-top: 17.57813px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\0000314}}
+  div.game__box div.swiper-container-hero {
+    width: 353.90625px;
+    height: 304.6875px;
+    margin: 0 auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\0000319}}
+  div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide {
+    width: 100%;
+    height: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\0000322}}
+  div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.first {
+    background: url("../img/en/game/hero/hero-1.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\0000325}}
+  div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.second {
+    background: url("../img/en/game/hero/hero-2.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\0000328}}
+  div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.third {
+    background: url("../img/en/game/hero/hero-3.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\0000331}}
+  div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.fouth {
+    background: url("../img/en/game/hero/hero-4.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\0000334}}
+  div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.fifth {
+    background: url("../img/en/game/hero/hero-5.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\0000337}}
+  div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.six {
+    background: url("../img/en/game/hero/hero-6.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\0000340}}
+  div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.event {
+    background: url("../img/en/game/hero/hero-7.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\0000346}}
+  div.game__box div.swiper-container-hero div.swiper-pagination-hero .swiper-pagination-bullet {
+    width: 16.40625px;
+    height: 16.40625px;
+    border-radius: 100%;
+    background: #88735e;
+    opacity: 1;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\0000353}}
+  div.game__box div.swiper-container-hero div.swiper-pagination-hero .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #d3bc97;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\0000360}}
+  div.game__box div.help__title {
+    text-align: center;
+    height: 64.45313px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\0000366}}
+  div.game__box div.help__title img {
+    width: 329.88281px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\0000371}}
+  div.game__box div.gallery-top {
+    width: 100%;
+    height: 389.64844px;
+    position: relative;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\0000375}}
+  div.game__box div.gallery-top div.hero__inner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70.3125px;
+    box-sizing: border-box;
+    padding: 0 46.875px;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.9));
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\0000385}}
+  div.game__box div.gallery-top div.hero__inner h3 {
+    text-align: center;
+    font-size: 17.57813px;
+    color: #fdfafa;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\0000392}}
+  div.game__box div.gallery-top div.hero__inner p {
+    margin-top: 8.78906px;
+    color: #fdfafa;
+    font-size: 10.54688px;
+    line-height: 1.5;
+    font-style: italic;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003105}}
+  div.game__box div.gallery-top .swiper-button-next:after,
+  div.game__box div.gallery-top .swiper-button-prev:after {
+    content: " ";
+    display: inline-block;
+    background: transparent url("../img/common/game/thumbs/right.png") no-repeat center top/cover;
+    width: 52.73438px;
+    height: 52.73438px;
+    border: 0;
+    outline: 0;
+    tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003118}}
+  div.game__box div.gallery-top .swiper-button-prev:after {
+    background: url("../img/common/game/thumbs/left.png") no-repeat center top/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003121}}
+  div.game__box div.gallery-top .swiper-button-next,
+  div.game__box div.gallery-top .swiper-button-prev {
+    width: 52.73438px;
+    height: 52.73438px;
+    border: 0;
+    outline: 0;
+    tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    background: transparent;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003134}}
+  div.game__box div.gallery-top .swiper-wrapper {
+    transition-timing-function: ease-out;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003137}}
+  div.game__box div.gallery-top div.swiper-slide {
+    width: 375px;
+    height: 389.64844px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003140}}
+  div.game__box div.gallery-top div.swiper-slide.first {
+    background: url("../img/common/game/thumbs/virgo-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003143}}
+  div.game__box div.gallery-top div.swiper-slide.sec {
+    background: url("../img/common/game/thumbs/rota-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003146}}
+  div.game__box div.gallery-top div.swiper-slide.third {
+    background: url("../img/common/game/thumbs/ram-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003149}}
+  div.game__box div.gallery-top div.swiper-slide.fourth {
+    background: url("../img/common/game/thumbs/papilia-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003152}}
+  div.game__box div.gallery-top div.swiper-slide.fifth {
+    background: url("../img/common/game/thumbs/aida-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003155}}
+  div.game__box div.gallery-top div.swiper-slide.sixth {
+    background: url("../img/common/game/thumbs/lira-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003158}}
+  div.game__box div.gallery-top div.swiper-slide.seventh {
+    background: url("../img/common/game/thumbs/miho-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003161}}
+  div.game__box div.gallery-top div.swiper-slide.eighth {
+    background: url("../img/common/game/thumbs/pisces-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003164}}
+  div.game__box div.gallery-top div.swiper-slide.ninth {
+    background: url("../img/common/game/thumbs/venecia-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003167}}
+  div.game__box div.gallery-top div.swiper-slide.tenth {
+    background: url("../img/common/game/thumbs/seika-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003170}}
+  div.game__box div.gallery-top div.swiper-slide.elventh {
+    background: url("../img/common/game/thumbs/unicorn-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003173}}
+  div.game__box div.gallery-top div.swiper-slide.twlth {
+    background: url("../img/common/game/thumbs/ignagon-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003177}}
+  div.game__box div.gallery-top div.swiper-slide.thirty {
+    background: url("../img/common/game/thumbs/grimoire-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003180}}
+  div.game__box div.gallery-top div.swiper-slide.fourty {
+    background: url("../img/common/game/thumbs/enakir-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003186}}
+  div.game__box div.gallery-thumbs {
+    width: 100%;
+    padding: 12.89063px 11.71875px;
+    box-sizing: border-box;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003190}}
+  div.game__box div.gallery-thumbs div.swiper-slide {
+    width: 87.30469px;
+    height: 133.59375px;
+    filter: grayscale(1);
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003195}}
+  div.game__box div.gallery-thumbs div.swiper-slide.swiper-slide-thumb-active {
+    filter: grayscale(0);
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003198}}
+  div.game__box div.gallery-thumbs div.swiper-slide.first {
+    background: url("../img/en/game/thumbs/virgo.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003201}}
+  div.game__box div.gallery-thumbs div.swiper-slide.sec {
+    background: url("../img/en/game/thumbs/rota.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003204}}
+  div.game__box div.gallery-thumbs div.swiper-slide.third {
+    background: url("../img/en/game/thumbs/ram.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003207}}
+  div.game__box div.gallery-thumbs div.swiper-slide.fourth {
+    background: url("../img/en/game/thumbs/papilia.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003210}}
+  div.game__box div.gallery-thumbs div.swiper-slide.fifth {
+    background: url("../img/en/game/thumbs/aida.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003213}}
+  div.game__box div.gallery-thumbs div.swiper-slide.sixth {
+    background: url("../img/en/game/thumbs/lira.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003216}}
+  div.game__box div.gallery-thumbs div.swiper-slide.seventh {
+    background: url("../img/en/game/thumbs/miho.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003219}}
+  div.game__box div.gallery-thumbs div.swiper-slide.eighth {
+    background: url("../img/en/game/thumbs/pisces.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003222}}
+  div.game__box div.gallery-thumbs div.swiper-slide.ninth {
+    background: url("../img/en/game/thumbs/venecia.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003225}}
+  div.game__box div.gallery-thumbs div.swiper-slide.tenth {
+    background: url("../img/en/game/thumbs/seika.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003228}}
+  div.game__box div.gallery-thumbs div.swiper-slide.elventh {
+    background: url("../img/en/game/thumbs/unicorn.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003231}}
+  div.game__box div.gallery-thumbs div.swiper-slide.twlth {
+    background: url("../img/en/game/thumbs/ignagon.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003235}}
+  div.game__box div.gallery-thumbs div.swiper-slide.thirty {
+    background: url("../img/en/game/thumbs/grimoire.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003238}}
+  div.game__box div.gallery-thumbs div.swiper-slide.fourty {
+    background: url("../img/en/game/thumbs/enakir.png") no-repeat center bottom/contain;
+  }
+}
+@media screen and (max-width: 415px) and (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003246}}
+  div.game__box {
+    margin-top: 6.25rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003249}}
+  div.scale__box {
+    height: 322.26563px;
+    position: relative;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003253}}
+  div.swiper-container-hero {
+    transform: translateX(-50%) scale(0.8);
+    transform-origin: center center;
+    position: absolute;
+    left: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003259}}
+  div.help__title {
+    transform: translateX(-50%) scale(0.8);
+    transform-origin: center center;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+  }
+}
+@media screen and (min-width: 415px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003273}}
+  div.game__box {
+    margin-top: 6.25rem;
+    height: 1927.71084px;
+    overflow: hidden;
+    background: url("../img/common/game/bg.jpg") no-repeat center top/cover;
+    background-clip: border-box;
+    padding-top: 36.14458px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003281}}
+  div.game__box div.swiper-container-hero {
+    width: 727.71084px;
+    height: 626.50602px;
+    margin: 0 auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003286}}
+  div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide {
+    width: 100%;
+    height: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003289}}
+  div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.first {
+    background: url("../img/en/game/hero/hero-1.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003292}}
+  div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.second {
+    background: url("../img/en/game/hero/hero-2.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003295}}
+  div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.third {
+    background: url("../img/en/game/hero/hero-3.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003298}}
+  div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.fouth {
+    background: url("../img/en/game/hero/hero-4.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003301}}
+  div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.fifth {
+    background: url("../img/en/game/hero/hero-5.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003304}}
+  div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.six {
+    background: url("../img/en/game/hero/hero-6.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003307}}
+  div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.event {
+    background: url("../img/en/game/hero/hero-7.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003313}}
+  div.game__box div.swiper-container-hero div.swiper-pagination-hero .swiper-pagination-bullet {
+    width: 33.73494px;
+    height: 33.73494px;
+    border-radius: 100%;
+    background: #88735e;
+    opacity: 1;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003320}}
+  div.game__box div.swiper-container-hero div.swiper-pagination-hero .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #d3bc97;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003327}}
+  div.game__box div.help__title {
+    text-align: center;
+    height: 132.53012px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003333}}
+  div.game__box div.help__title img {
+    width: 678.31325px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003338}}
+  div.game__box div.gallery-top {
+    width: 100%;
+    height: 801.20482px;
+    position: relative;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003342}}
+  div.game__box div.gallery-top div.hero__inner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 144.57831px;
+    box-sizing: border-box;
+    padding: 0 96.38554px;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.9));
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003352}}
+  div.game__box div.gallery-top div.hero__inner h3 {
+    text-align: center;
+    font-size: 36.14458px;
+    color: #fdfafa;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003359}}
+  div.game__box div.gallery-top div.hero__inner p {
+    margin-top: 18.07229px;
+    color: #fdfafa;
+    font-size: 21.68675px;
+    line-height: 1.5;
+    font-style: italic;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003372}}
+  div.game__box div.gallery-top .swiper-button-next:after,
+  div.game__box div.gallery-top .swiper-button-prev:after {
+    content: " ";
+    display: inline-block;
+    background: transparent url("../img/common/game/thumbs/right.png") no-repeat center top/cover;
+    width: 108.43373px;
+    height: 108.43373px;
+    border: 0;
+    outline: 0;
+    tap-highlight-color: transparent;
+    webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003385}}
+  div.game__box div.gallery-top .swiper-button-prev:after {
+    background: transparent url("../img/common/game/thumbs/left.png") no-repeat center top/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003388}}
+  div.game__box div.gallery-top .swiper-button-next,
+  div.game__box div.gallery-top .swiper-button-prev {
+    width: 108.43373px;
+    height: 108.43373px;
+    border: 0;
+    outline: 0;
+    tap-highlight-color: transparent;
+    webkit-tap-highlight-color: transparent;
+    user-select: none;
+    background: transparent;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003400}}
+  div.game__box div.gallery-top .swiper-wrapper {
+    transition-timing-function: ease-out;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003403}}
+  div.game__box div.gallery-top div.swiper-slide {
+    width: 771.08434px;
+    height: 801.20482px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003406}}
+  div.game__box div.gallery-top div.swiper-slide.first {
+    background: url("../img/common/game/thumbs/virgo-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003409}}
+  div.game__box div.gallery-top div.swiper-slide.sec {
+    background: url("../img/common/game/thumbs/rota-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003412}}
+  div.game__box div.gallery-top div.swiper-slide.third {
+    background: url("../img/common/game/thumbs/ram-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003415}}
+  div.game__box div.gallery-top div.swiper-slide.fourth {
+    background: url("../img/common/game/thumbs/papilia-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003418}}
+  div.game__box div.gallery-top div.swiper-slide.fifth {
+    background: url("../img/common/game/thumbs/aida-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003421}}
+  div.game__box div.gallery-top div.swiper-slide.sixth {
+    background: url("../img/common/game/thumbs/lira-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003424}}
+  div.game__box div.gallery-top div.swiper-slide.seventh {
+    background: url("../img/common/game/thumbs/miho-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003427}}
+  div.game__box div.gallery-top div.swiper-slide.eighth {
+    background: url("../img/common/game/thumbs/pisces-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003430}}
+  div.game__box div.gallery-top div.swiper-slide.ninth {
+    background: url("../img/common/game/thumbs/venecia-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003433}}
+  div.game__box div.gallery-top div.swiper-slide.tenth {
+    background: url("../img/common/game/thumbs/seika-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003436}}
+  div.game__box div.gallery-top div.swiper-slide.elventh {
+    background: url("../img/common/game/thumbs/unicorn-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003439}}
+  div.game__box div.gallery-top div.swiper-slide.twlth {
+    background: url("../img/common/game/thumbs/ignagon-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003443}}
+  div.game__box div.gallery-top div.swiper-slide.thirty {
+    background: url("../img/common/game/thumbs/grimoire-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003446}}
+  div.game__box div.gallery-top div.swiper-slide.fourty {
+    background: url("../img/common/game/thumbs/enakir-top.png") no-repeat center bottom/cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003452}}
+  div.game__box div.gallery-thumbs {
+    width: 100%;
+    padding: 26.50602px 24.09639px;
+    box-sizing: border-box;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003456}}
+  div.game__box div.gallery-thumbs div.swiper-slide {
+    width: 179.51807px;
+    height: 274.6988px;
+    filter: grayscale(1);
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003461}}
+  div.game__box div.gallery-thumbs div.swiper-slide.swiper-slide-thumb-active {
+    filter: grayscale(0);
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003464}}
+  div.game__box div.gallery-thumbs div.swiper-slide.first {
+    background: url("../img/en/game/thumbs/virgo.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003467}}
+  div.game__box div.gallery-thumbs div.swiper-slide.sec {
+    background: url("../img/en/game/thumbs/rota.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003470}}
+  div.game__box div.gallery-thumbs div.swiper-slide.third {
+    background: url("../img/en/game/thumbs/ram.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003473}}
+  div.game__box div.gallery-thumbs div.swiper-slide.fourth {
+    background: url("../img/en/game/thumbs/papilia.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003476}}
+  div.game__box div.gallery-thumbs div.swiper-slide.fifth {
+    background: url("../img/en/game/thumbs/aida.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003479}}
+  div.game__box div.gallery-thumbs div.swiper-slide.sixth {
+    background: url("../img/en/game/thumbs/lira.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003482}}
+  div.game__box div.gallery-thumbs div.swiper-slide.seventh {
+    background: url("../img/en/game/thumbs/miho.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003485}}
+  div.game__box div.gallery-thumbs div.swiper-slide.eighth {
+    background: url("../img/en/game/thumbs/pisces.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003488}}
+  div.game__box div.gallery-thumbs div.swiper-slide.ninth {
+    background: url("../img/en/game/thumbs/venecia.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003491}}
+  div.game__box div.gallery-thumbs div.swiper-slide.tenth {
+    background: url("../img/en/game/thumbs/seika.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003494}}
+  div.game__box div.gallery-thumbs div.swiper-slide.elventh {
+    background: url("../img/en/game/thumbs/unicorn.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003497}}
+  div.game__box div.gallery-thumbs div.swiper-slide.twlth {
+    background: url("../img/en/game/thumbs/ignagon.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003501}}
+  div.game__box div.gallery-thumbs div.swiper-slide.thirty {
+    background: url("../img/en/game/thumbs/grimoire.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003504}}
+  div.game__box div.gallery-thumbs div.swiper-slide.fourty {
+    background: url("../img/en/game/thumbs/enakir.png") no-repeat center bottom/contain;
+  }
+}
+@media screen and (max-width: 415px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003519}}
+  .news__pad__ko div.game__box div.swiper-container-hero {
+    width: 353.90625px;
+    height: 304.6875px;
+    margin: 0 auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003524}}
+  .news__pad__ko div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide {
+    width: 100%;
+    height: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003527}}
+  .news__pad__ko div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.first {
+    background: url("../img/ko/game/hero/hero-1.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003530}}
+  .news__pad__ko div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.second {
+    background: url("../img/ko/game/hero/hero-2.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003533}}
+  .news__pad__ko div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.third {
+    background: url("../img/ko/game/hero/hero-3.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003536}}
+  .news__pad__ko div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.fouth {
+    background: url("../img/ko/game/hero/hero-4.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003539}}
+  .news__pad__ko div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.fifth {
+    background: url("../img/ko/game/hero/hero-5.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003542}}
+  .news__pad__ko div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.six {
+    background: url("../img/ko/game/hero/hero-6.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003545}}
+  .news__pad__ko div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.event {
+    background: url("../img/ko/game/hero/hero-7.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003552}}
+  .news__pad__ko div.game__box div.gallery-thumbs {
+    width: 100%;
+    padding: 12.89063px 11.71875px;
+    box-sizing: border-box;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003556}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide {
+    width: 87.30469px;
+    height: 133.59375px;
+    filter: grayscale(1);
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003561}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.swiper-slide-thumb-active {
+    filter: grayscale(0);
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003564}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.first {
+    background: url("../img/ko/game/thumbs/virgo.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003567}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.sec {
+    background: url("../img/ko/game/thumbs/rota.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003570}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.third {
+    background: url("../img/ko/game/thumbs/ram.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003573}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.fourth {
+    background: url("../img/ko/game/thumbs/papilia.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003576}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.fifth {
+    background: url("../img/ko/game/thumbs/aida.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003579}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.sixth {
+    background: url("../img/ko/game/thumbs/lira.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003582}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.seventh {
+    background: url("../img/ko/game/thumbs/miho.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003585}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.eighth {
+    background: url("../img/ko/game/thumbs/pisces.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003588}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.ninth {
+    background: url("../img/ko/game/thumbs/venecia.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003591}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.tenth {
+    background: url("../img/ko/game/thumbs/seika.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003594}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.elventh {
+    background: url("../img/ko/game/thumbs/unicorn.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003597}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.twlth {
+    background: url("../img/ko/game/thumbs/ignagon.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003601}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.thirty {
+    background: url("../img/ko/game/thumbs/grimoire.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003604}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.fourty {
+    background: url("../img/ko/game/thumbs/enakir.png") no-repeat center bottom/contain;
+  }
+}
+@media screen and (min-width: 415px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003617}}
+  .news__pad__ko div.game__box div.swiper-container-hero {
+    width: 727.71084px;
+    height: 626.50602px;
+    margin: 0 auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003622}}
+  .news__pad__ko div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide {
+    width: 100%;
+    height: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003625}}
+  .news__pad__ko div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.first {
+    background: url("../img/ko/game/hero/hero-1.png") no-repeat center top/contain !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003628}}
+  .news__pad__ko div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.second {
+    background: url("../img/ko/game/hero/hero-2.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003631}}
+  .news__pad__ko div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.third {
+    background: url("../img/ko/game/hero/hero-3.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003634}}
+  .news__pad__ko div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.fouth {
+    background: url("../img/ko/game/hero/hero-4.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003637}}
+  .news__pad__ko div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.fifth {
+    background: url("../img/ko/game/hero/hero-5.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003640}}
+  .news__pad__ko div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.six {
+    background: url("../img/ko/game/hero/hero-6.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003643}}
+  .news__pad__ko div.game__box div.swiper-container-hero div.swiper-wrapper div.swiper-slide.event {
+    background: url("../img/ko/game/hero/hero-7.png") no-repeat center top/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003649}}
+  .news__pad__ko div.game__box div.swiper-container-hero div.swiper-pagination-hero .swiper-pagination-bullet {
+    width: 33.73494px;
+    height: 33.73494px;
+    border-radius: 100%;
+    background: #88735e;
+    opacity: 1;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003656}}
+  .news__pad__ko div.game__box div.swiper-container-hero div.swiper-pagination-hero .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #d3bc97;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003663}}
+  .news__pad__ko div.game__box div.gallery-thumbs {
+    width: 100%;
+    padding: 26.50602px 24.09639px;
+    box-sizing: border-box;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003667}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide {
+    width: 179.51807px;
+    height: 274.6988px;
+    filter: grayscale(1);
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003672}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.swiper-slide-thumb-active {
+    filter: grayscale(0);
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003675}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.first {
+    background: url("../img/ko/game/thumbs/virgo.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003678}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.sec {
+    background: url("../img/ko/game/thumbs/rota.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003681}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.third {
+    background: url("../img/ko/game/thumbs/ram.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003684}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.fourth {
+    background: url("../img/ko/game/thumbs/papilia.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003687}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.fifth {
+    background: url("../img/ko/game/thumbs/aida.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003690}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.sixth {
+    background: url("../img/ko/game/thumbs/lira.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003693}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.seventh {
+    background: url("../img/ko/game/thumbs/miho.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003696}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.eighth {
+    background: url("../img/ko/game/thumbs/pisces.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003699}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.ninth {
+    background: url("../img/ko/game/thumbs/venecia.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003702}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.tenth {
+    background: url("../img/ko/game/thumbs/seika.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003705}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.elventh {
+    background: url("../img/ko/game/thumbs/unicorn.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003708}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.twlth {
+    background: url("../img/ko/game/thumbs/ignagon.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003712}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.thirty {
+    background: url("../img/ko/game/thumbs/grimoire.png") no-repeat center bottom/contain;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003715}}
+  .news__pad__ko div.game__box div.gallery-thumbs div.swiper-slide.fourty {
+    background: url("../img/ko/game/thumbs/enakir.png") no-repeat center bottom/contain;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_game\.scss}line{font-family:\00003724}}
+.wrap .swiper-button-next.swiper-button-disabled,
+.wrap .swiper-button-prev.swiper-button-disabled {
+  opacity: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\000033}}
+.guides .main {
+  background-color: #fff;
+  margin-top: 6.25rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\000037}}
+.guides .main .banner img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\0000311}}
+.guides .main .main__content {
+  padding: 1rem .8rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\0000313}}
+.guides .main .main__content .ttl_h2 {
+  height: 4.6rem;
+  background-color: #30343f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 .6rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\0000320}}
+.guides .main .main__content .ttl_h2 .ttl__con {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 68%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\0000325}}
+.guides .main .main__content .ttl_h2 .ttl__con img {
+  height: 2.8rem;
+  margin-right: .4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\0000329}}
+.guides .main .main__content .ttl_h2 .ttl__con p {
+  font-size: 2rem;
+  color: #fcfafa;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\0000338}}
+.guides .main .main__content .ttl_h2 .btn__post {
+  width: 10rem;
+  height: 3rem;
+  display: block;
+  font-size: 1.2rem;
+  color: #fcfafa;
+  background-color: #eaa014;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\0000346}}
+.guides .main .main__content .ttl_h2 .btn__post:hover {
+  background-color: #e6b35a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\0000353}}
+.guides .main .main__content .guides__list {
+  background-color: #fcfafa;
+  min-height: 46vh;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\0000357}}
+.guides .main .main__content .guides__list li a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .8rem .4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\0000364}}
+.guides .main .main__content .guides__list li:nth-of-type(2n) {
+  background-color: #f9f6f6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\0000369}}
+.guides .main .main__content .guides__list li .text__main {
+  line-height: 1.6;
+  width: 82%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\0000372}}
+.guides .main .main__content .guides__list li .text__main .ttl {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\0000376}}
+.guides .main .main__content .guides__list li .text__main .ttl span {
+  font-size: 1.4rem;
+  color: #eea729;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 80%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\0000384}}
+.guides .main .main__content .guides__list li .text__main .ttl i {
+  width: 1.4rem;
+  height: 1.4rem;
+  display: block;
+  margin: 0 .1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\0000390}}
+.guides .main .main__content .guides__list li .text__main .ttl i.icon-lock {
+  background: url("../img/common/guides/icon_lock.png") no-repeat;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\0000394}}
+.guides .main .main__content .guides__list li .text__main .ttl i.icon-topping {
+  background: url("../img/common/guides/icon_topping.png") no-repeat;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\0000398}}
+.guides .main .main__content .guides__list li .text__main .ttl i.icon-star {
+  background: url("../img/common/guides/icon_star.png") no-repeat;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\00003103}}
+.guides .main .main__content .guides__list li .text__main .desc {
+  font-size: 1.2rem;
+  color: #999999;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\00003109}}
+.guides .main .main__content .guides__list li .text__main .desc span {
+  font-size: inherit;
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\00003114}}
+.guides .main .main__content .guides__list li .text__main .text__data {
+  font-size: 1.2rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\00003119}}
+.guides .main .main__content .guides__list li .text__main .text__data .replies {
+  color: #333333;
+  font-size: inherit;
+  margin-right: .4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\00003124}}
+.guides .main .main__content .guides__list li .text__main .text__data .views {
+  color: #999999;
+  font-size: inherit;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\00003134}}
+.guides .main .main__content .guides__list li:hover .text__main .ttl span {
+  color: #fcd289;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\00003139}}
+.guides .main .main__content .guides__list li:hover .text__main .desc span {
+  color: #fcd289;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\00003145}}
+.guides .main .main__content .guides__list li:hover .user .date {
+  color: #efa72a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\00003150}}
+.guides .main .main__content .guides__list li .user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\00003155}}
+.guides .main .main__content .guides__list li .user .user__pic {
+  width: 3.6rem;
+  height: 3.6rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\00003158}}
+.guides .main .main__content .guides__list li .user .user__pic img {
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_guides\.scss}line{font-family:\00003163}}
+.guides .main .main__content .guides__list li .user .date {
+  font-size: 1.2rem;
+  color: #999999;
+  line-height: 2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\000032}}
+html {
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\000036}}
+table {
+  border-spacing: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\000039}}
+.polivy {
+  background-color: #f2f4f7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\0000311}}
+.polivy .wrap {
+  height: calc(100% - 20rem);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\0000314}}
+.polivy .main {
+  margin-top: 6.25rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\0000317}}
+.polivy .main .policy__wrap {
+  width: 100%;
+  margin: 0 auto 3.3rem;
+  padding: 0 .8rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\0000321}}
+.polivy .main .policy__wrap .policy__tit {
+  font-size: 1.8rem;
+  color: #333333;
+  text-align: center;
+  font-weight: bold;
+  line-height: 7.5rem;
+  margin-top: .5rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\0000329}}
+.polivy .main .policy__wrap .policy__main {
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\0000334}}
+.polivy .main .policy__wrap .policy__main dl dt h4 {
+  font-size: .9rem;
+  color: #333333;
+  font-weight: bold;
+  line-height: 2.2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\0000341}}
+.polivy .main .policy__wrap .policy__main dl dd {
+  font-size: .75rem;
+  color: #666666;
+  line-height: 1.2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\0000345}}
+.polivy .main .policy__wrap .policy__main dl dd .subtitle {
+  font-size: .75rem;
+  color: #666666;
+  padding: 0 .2rem;
+  margin: .4rem 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\0000351}}
+.polivy .main .policy__wrap .policy__main dl dd .policy__con {
+  font-size: .75rem;
+  color: #666666;
+  line-height: 1.2rem;
+  padding: 0 .2rem 0 1.7rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\0000356}}
+.polivy .main .policy__wrap .policy__main dl dd .policy__con ol {
+  list-style: decimal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\0000361}}
+.polivy .main .policy__wrap .policy__main dl dd table {
+  width: 99%;
+  margin: 0 auto .5rem;
+  font-size: .7rem;
+  color: #666666;
+  line-height: 1.2rem;
+  border-bottom: 1px solid #dfdede;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\0000369}}
+.polivy .main .policy__wrap .policy__main dl dd table tr:nth-of-type(2n+1) {
+  background: #f1f1f1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\0000372}}
+.polivy .main .policy__wrap .policy__main dl dd table tr:first-of-type {
+  background: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\0000376}}
+.polivy .main .policy__wrap .policy__main dl dd table tr th {
+  border-top: .2rem solid #c8c8c7;
+  border-bottom: .2rem solid #c8c8c7;
+  background: #dfdede;
+  height: 2rem;
+  font-size: .75rem;
+  color: #101010;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\0000384}}
+.polivy .main .policy__wrap .policy__main dl dd table tr td {
+  border: 1px solid #dfdede;
+  padding: .15rem .5rem;
+  vertical-align: top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\0000388}}
+.polivy .main .policy__wrap .policy__main dl dd table tr td:first-of-type {
+  border-left: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\0000391}}
+.polivy .main .policy__wrap .policy__main dl dd table tr td:last-of-type {
+  border-right: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\0000399}}
+.polivy .main .policy__wrap .policy__main dl dd table.table4_1 td:nth-of-type(2) {
+  text-align: center;
+  width: 3.9rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\00003106}}
+.polivy .main .policy__wrap .policy__main dl dd table.table5_1 td {
+  width: 20%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\00003112}}
+.polivy .main .policy__wrap .policy__main dl dd table.table6_1 td:first-of-type {
+  width: 4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\00003115}}
+.polivy .main .policy__wrap .policy__main dl dd table.table6_1 td:nth-of-type(2) {
+  width: 16rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-delete\.scss}line{font-family:\00003118}}
+.polivy .main .policy__wrap .policy__main dl dd table.table6_1 td[colspan] {
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\000032}}
+.forums__details {
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\000037}}
+.forums__details .main {
+  background-color: #f2f4f7;
+  margin-top: 6.25rem;
+  min-height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\0000312}}
+.forums__details .main .banner img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\0000316}}
+.forums__details .main .main__content {
+  padding: 1rem .8rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\0000318}}
+.forums__details .main .main__content .ttl_h2 {
+  background-color: #30343f;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem .8rem .6rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\0000324}}
+.forums__details .main .main__content .ttl_h2 .ttl__con {
+  width: 80%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\0000326}}
+.forums__details .main .main__content .ttl_h2 .ttl__con img {
+  height: 2.8rem;
+  margin-right: .4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\0000330}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .ttl__title {
+  font-size: 2rem;
+  color: #fcfafa;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\0000338}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .input__wrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\0000343}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .input__wrap .edit__input {
+  width: 100%;
+  padding: 0 .5rem;
+  flex: 1;
+  height: 3.2rem;
+  line-height: 3.2rem;
+  border: .2rem solid #727b94;
+  background-color: transparent;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fcfafa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\0000354}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .input__wrap .edit__input::-webkit-input-placeholder {
+  color: #fcfafa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\0000357}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .input__wrap .edit__input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fcfafa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\0000360}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .input__wrap .edit__input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fcfafa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\0000363}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .input__wrap .edit__input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fcfafa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\0000367}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .input__wrap .edit__yn {
+  border: 2px solid #727b94;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-left: .2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\0000373}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .input__wrap .edit__yn button {
+  width: 2.6rem;
+  height: 2.6rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\0000377}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .input__wrap .edit__yn--yes {
+  border-right: 1px solid #727b94;
+  background: url(../img/common/forums-details/icon-right.png) no-repeat center;
+  background-size: 50% 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\0000382}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .input__wrap .edit__yn--no {
+  border-left: 1px solid #727b94;
+  background: url(../img/common/forums-details/icon-close.png) no-repeat center;
+  background-size: 50% 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\0000392}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .edit__wrap {
+  margin: .6rem 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\0000394}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .edit__wrap span {
+  display: inline-block;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\0000399}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .edit__wrap span.edit__lock {
+  background: url(../img/common/forums-details/icon_lock.png) no-repeat center;
+  background-size: cover;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003103}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .edit__wrap span.edit__lock-a {
+  background: url(../img/common/forums-details/icon_lock-a.png) no-repeat center;
+  background-size: cover;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003107}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .edit__wrap span.edit__topping {
+  background: url(../img/common/forums-details/icon_topping.png) no-repeat center;
+  background-size: cover;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003111}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .edit__wrap span.edit__topping-a {
+  background: url(../img/common/forums-details/icon_topping-a.png) no-repeat center;
+  background-size: cover;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003115}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .edit__wrap span.edit__star {
+  background: url(../img/common/forums-details/icon_star.png) no-repeat center;
+  background-size: cover;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003119}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .edit__wrap span.edit__star-a {
+  background: url(../img/common/forums-details/icon_star-a.png) no-repeat center;
+  background-size: cover;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003123}}
+.forums__details .main .main__content .ttl_h2 .ttl__con .edit__wrap span.edit__lockup {
+  background: url(../img/common/forums-details/icon_lockup.png) no-repeat center;
+  background-size: cover;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003133}}
+.forums__details .main .main__content .ttl_h2 .edit {
+  margin-top: .2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003135}}
+.forums__details .main .main__content .ttl_h2 .edit button {
+  width: 2.6rem;
+  height: 2.6rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003139}}
+.forums__details .main .main__content .ttl_h2 .edit button.edit__write {
+  background: url(../img/common/forums-details/icon-edit.png) no-repeat center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003142}}
+.forums__details .main .main__content .ttl_h2 .edit button.edit__delete {
+  background: url(../img/common/forums-details/icon-delete.png) no-repeat center;
+}
+@media screen and (max-width: 340px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003152}}
+  .forums__details .main .main__content .ttl_h2 .ttl__con .input__wrap .edit__input {
+    font-size: 1.4rem;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003156}}
+  .forums__details .main .main__content .ttl_h2 .ttl__con .input__wrap .edit__yn button {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003162}}
+  .forums__details .main .main__content .ttl_h2 .ttl__con .edit__wrap {
+    margin: .6rem 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003164}}
+  .forums__details .main .main__content .ttl_h2 .ttl__con .edit__wrap span {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003170}}
+  .forums__details .main .main__content .ttl_h2 .edit {
+    margin-top: .6rem;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003172}}
+  .forums__details .main .main__content .ttl_h2 .edit button {
+    width: 2rem;
+    height: 2rem;
+    background-size: contain !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003186}}
+.forums__details .main .fdetails__subinfo {
+  padding: 0 1rem;
+  font-size: 1.3rem;
+  color: #333333;
+  line-height: 1.6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003191}}
+.forums__details .main .fdetails__subinfo .subinf__n1 {
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003194}}
+.forums__details .main .fdetails__subinfo .subinf__n2 {
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003197}}
+.forums__details .main .fdetails__subinfo .subinf__n3 {
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003201}}
+.forums__details .main .fdetails__subinfo.active .subinf__n1 {
+  color: #e8b25a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003204}}
+.forums__details .main .fdetails__subinfo.active .subinf__n3 {
+  color: #e8b25a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003210}}
+.forums__details .main .details__list {
+  min-height: 50%;
+  margin: 1.6rem auto 0;
+  width: 97%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003214}}
+.forums__details .main .details__list .details__item {
+  border-bottom: 2px solid #d6d6d9;
+  margin-bottom: 1.8rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003218}}
+.forums__details .main .details__list .details__item .details__tit {
+  background-color: #efeeee;
+  padding: 1.8rem .4rem 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003225}}
+.forums__details .main .details__list .details__item .details__tit .admin__tag {
+  font-size: 1.4rem;
+  color: #fefcfc;
+  font-weight: bold;
+  background: #efa72a;
+  line-height: 2;
+  position: absolute;
+  top: .5rem;
+  left: -3rem;
+  transform: rotate(-36deg);
+  padding: 0 3rem;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003239}}
+.forums__details .main .details__list .details__item .details__tit .item__user {
+  display: flex;
+  margin-left: 3.2rem;
+  width: 80%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003243}}
+.forums__details .main .details__list .details__item .details__tit .item__user .user__img {
+  width: 4.8rem;
+  height: 4.8rem;
+  margin-right: .8rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003248}}
+.forums__details .main .details__list .details__item .details__tit .item__user .user__info {
+  line-height: 1.6;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003251}}
+.forums__details .main .details__list .details__item .details__tit .item__user .user__info .user__tit {
+  font-size: 1.6rem;
+  color: #333333;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 82%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003259}}
+.forums__details .main .details__list .details__item .details__tit .item__user .user__info .user__tit:hover {
+  color: #e8b25a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003263}}
+.forums__details .main .details__list .details__item .details__tit .item__user .user__info .user__date {
+  font-size: 1.4rem;
+  color: #999999;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003267}}
+.forums__details .main .details__list .details__item .details__tit .item__user .user__info .user__date:hover {
+  color: #e8b25a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003273}}
+.forums__details .main .details__list .details__item .details__tit .edit {
+  display: flex;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003276}}
+.forums__details .main .details__list .details__item .details__tit .edit button {
+  width: 3rem;
+  height: 3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003280}}
+.forums__details .main .details__list .details__item .details__tit .edit button.edit__write {
+  background: url(../img/common/forums-details/icon-edit-2.png) no-repeat center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003283}}
+.forums__details .main .details__list .details__item .details__tit .edit button.edit__delete {
+  background: url(../img/common/forums-details/icon-delete-2.png) no-repeat center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003292}}
+.forums__details .main .details__list .details__item.admin .admin__tag {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003296}}
+.forums__details .main .details__list .details__item .details__content {
+  font-size: 1.4rem;
+  color: #999999;
+  line-height: 1.6;
+  padding: .8rem .6rem 2rem;
+  background: #fcfafa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003302}}
+.forums__details .main .details__list .details__item .details__content ul, .forums__details .main .details__list .details__item .details__content ol {
+  list-style: initial !important;
+  list-style-position: inside;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003306}}
+.forums__details .main .details__list .details__item .details__content * {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  word-break: break-word;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003311}}
+.forums__details .main .details__list .details__item .details__content img {
+  max-width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003315}}
+.forums__details .main .details__list .details__item .details__content iframe {
+  max-width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003323}}
+.forums__details .main .topic__closed {
+  width: 97%;
+  height: 6rem;
+  margin: 0 auto 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e6e8eb;
+  padding: 0 .6rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003332}}
+.forums__details .main .topic__closed .topic__user {
+  width: 3.6rem;
+  margin-right: .3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003336}}
+.forums__details .main .topic__closed .topic__tit {
+  width: 90%;
+  border: .3rem solid #dedfe0;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 4.8rem;
+  padding: 0 .6rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003345}}
+.forums__details .main .topic__closed .topic__tit > img {
+  width: 1.6rem;
+  margin-right: .6rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003349}}
+.forums__details .main .topic__closed .topic__tit p {
+  font-size: 1.2rem;
+  color: #f85759;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003359}}
+.forums__details .main .topic__reply {
+  width: 97%;
+  height: 6rem;
+  margin: 0 auto 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e6e8eb;
+  padding: 0 .6rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003368}}
+.forums__details .main .topic__reply .topic__user {
+  width: 3.6rem;
+  margin-right: .3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003372}}
+.forums__details .main .topic__reply .topic__tit {
+  width: 90%;
+  border: .3rem solid #dedfe0;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 4.8rem;
+  padding: 0 .6rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003381}}
+.forums__details .main .topic__reply .topic__tit > img {
+  width: 1.6rem;
+  margin-right: .6rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003385}}
+.forums__details .main .topic__reply .topic__tit p {
+  font-size: 1.2rem;
+  color: #666666;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003392}}
+.forums__details .main .editor__wrap {
+  width: 97%;
+  margin: 0 auto;
+  padding: .6rem .8rem .8rem;
+  background: #e6e8eb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003397}}
+.forums__details .main .editor__wrap #editor {
+  background: #fdfdfd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003399}}
+.forums__details .main .editor__wrap #editor > div {
+  border: none !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003401}}
+.forums__details .main .editor__wrap #editor > div:first-of-type {
+  border-bottom: 2px solid #e6e8eb !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003405}}
+.forums__details .main .editor__wrap #editor .w-e-toolbar {
+  flex-wrap: wrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003411}}
+.forums__details .main .sub__button {
+  margin: 1.6rem auto;
+  width: 94%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003417}}
+.forums__details .main .sub__button button {
+  width: 48%;
+  height: 5rem;
+  color: #fefff5;
+  font-size: 1.8rem;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003424}}
+.forums__details .main .sub__button button.btn__cancel {
+  background: #30343f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003426}}
+.forums__details .main .sub__button button.btn__cancel:hover {
+  background: #494f65;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003429}}
+.forums__details .main .sub__button button.btn__cancel::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: .2rem;
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: 0;
+  top: .4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003439}}
+.forums__details .main .sub__button button.btn__cancel::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: .2rem;
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: 0;
+  bottom: .4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003451}}
+.forums__details .main .sub__button button.btn__submit {
+  background: #eaa014;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003453}}
+.forums__details .main .sub__button button.btn__submit:hover {
+  background: #e6b35a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003456}}
+.forums__details .main .sub__button button.btn__submit::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: .2rem;
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: 0;
+  top: .4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003466}}
+.forums__details .main .sub__button button.btn__submit::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: .2rem;
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: 0;
+  bottom: .4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003478}}
+.forums__details .main .btn__back {
+  margin: 0 auto;
+  padding: 0 0 1.6rem;
+  width: 94%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003485}}
+.forums__details .main .btn__back button {
+  background: transparent;
+  font-size: 1.6rem;
+  color: #666666;
+  margin-left: .8rem;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003491}}
+.forums__details .main .btn__back button:hover {
+  color: #e8b25a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003497}}
+.forums__details .popup__bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 999999;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003508}}
+.forums__details .popup__bg.on {
+  display: flex;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003511}}
+.forums__details .popup__bg .popup {
+  width: 80%;
+  position: relative;
+  z-index: 99999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003515}}
+.forums__details .popup__bg .popup .popup__tit {
+  font-size: 1.4rem;
+  color: #fcfafa;
+  font-weight: bold;
+  background: #30343f;
+  line-height: 3;
+  padding: 0 .6rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003523}}
+.forums__details .popup__bg .popup .popup__button {
+  background: #faf8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003528}}
+.forums__details .popup__bg .popup .popup__button button {
+  width: 8.5rem;
+  height: 4rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border: 1px solid #30343f;
+  margin: 3rem 2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003535}}
+.forums__details .popup__bg .popup .popup__button button:hover {
+  border: 1px solid #494f65;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003539}}
+.forums__details .popup__bg .popup .popup__button button.btn__yes {
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003542}}
+.forums__details .popup__bg .popup .popup__button button.btn__no {
+  color: #fcfafa;
+  background: #30343f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003545}}
+.forums__details .popup__bg .popup .popup__button button.btn__no:hover {
+  background: #494f65;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-details\.scss}line{font-family:\00003551}}
+.forums__details .popup__bg .close__btn {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\000032}}
+.forums__post {
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\000037}}
+.forums__post .main {
+  background-color: #e6e8eb;
+  margin-top: 6.25rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\0000311}}
+.forums__post .main .banner img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\0000316}}
+.forums__post .main .panel {
+  width: 97%;
+  height: 5rem;
+  margin: 1.2rem auto;
+  background-color: #30343f;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\0000325}}
+.forums__post .main .panel .post__title {
+  font-size: 2rem;
+  color: #fcfafa;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\0000334}}
+.forums__post .main .input__title--wrap {
+  width: 97%;
+  margin: 1.2rem auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\0000337}}
+.forums__post .main .input__title--wrap .input__title {
+  height: 5rem;
+  border: .3rem solid #dedfe0;
+  display: block;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0 .8rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\0000352}}
+.forums__post .main .editor__wrap {
+  width: 97%;
+  margin: 0 auto 1.6rem;
+  padding: .3rem;
+  border-radius: .3rem;
+  background: #e6e8eb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\0000358}}
+.forums__post .main .editor__wrap #editor {
+  background: #fdfdfd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\0000360}}
+.forums__post .main .editor__wrap #editor > div {
+  border: none !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\0000362}}
+.forums__post .main .editor__wrap #editor > div:first-of-type {
+  border-bottom: .3rem solid #e6e8eb !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\0000367}}
+.forums__post .main .editor__wrap #editor .w-e-toolbar {
+  flex-wrap: wrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\0000373}}
+.forums__post .main .sub__button {
+  margin: 0 auto;
+  padding: 0 0 1.6rem;
+  width: 94%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\0000380}}
+.forums__post .main .sub__button button {
+  width: 48%;
+  height: 4.4rem;
+  color: #fefff5;
+  font-size: 1.8rem;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\0000387}}
+.forums__post .main .sub__button button.btn__cancel {
+  background: #30343f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\0000389}}
+.forums__post .main .sub__button button.btn__cancel:hover {
+  background: #494f65;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\0000392}}
+.forums__post .main .sub__button button.btn__cancel::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: .2rem;
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: 0;
+  top: .4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\00003102}}
+.forums__post .main .sub__button button.btn__cancel::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: .2rem;
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: 0;
+  bottom: .4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\00003114}}
+.forums__post .main .sub__button button.btn__submit {
+  background: #eaa014;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\00003116}}
+.forums__post .main .sub__button button.btn__submit:hover {
+  background: #e6b35a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\00003119}}
+.forums__post .main .sub__button button.btn__submit::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: .2rem;
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: 0;
+  top: .4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_forums-post\.scss}line{font-family:\00003129}}
+.forums__post .main .sub__button button.btn__submit::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: .2rem;
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: 0;
+  bottom: .4rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_polivy\.scss}line{font-family:\000032}}
+html {
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_polivy\.scss}line{font-family:\000036}}
+.forums__delete {
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_polivy\.scss}line{font-family:\000038}}
+.forums__delete .wrap {
+  height: calc(100% - 20rem);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_polivy\.scss}line{font-family:\0000311}}
+.forums__delete .main {
+  background-color: #fff;
+  margin-top: 6.25rem;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_polivy\.scss}line{font-family:\0000316}}
+.forums__delete .main .forums__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: url(../img/common/forums-delete/forums_bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_polivy\.scss}line{font-family:\0000325}}
+.forums__delete .main .forums__main .tit {
+  font-size: 1.2rem;
+  color: #30343f;
+  font-weight: bold;
+  line-height: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_polivy\.scss}line{font-family:\0000331}}
+.forums__delete .main .forums__main .tit__h {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_polivy\.scss}line{font-family:\0000335}}
+.forums__delete .main .forums__main .tit__h img {
+  width: 2.4rem;
+  margin-right: .6rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_polivy\.scss}line{font-family:\0000339}}
+.forums__delete .main .forums__main .tit__h p {
+  font-size: 1.6rem;
+  color: #30343f;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_polivy\.scss}line{font-family:\0000345}}
+.forums__delete .main .forums__main .back__button {
+  width: 16rem;
+  height: 4rem;
+  background-color: #30343f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_polivy\.scss}line{font-family:\0000353}}
+.forums__delete .main .forums__main .back__button:hover {
+  background-color: #494f65;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_polivy\.scss}line{font-family:\0000356}}
+.forums__delete .main .forums__main .back__button .back {
+  background-color: transparent;
+  color: #fefdfd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  width: 100%;
+  height: 80%;
+  border-top: 1px solid #727b94;
+  border-bottom: 1px solid #727b94;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/way2bit\/astellia_mo\/sass\/_project\/_polivy\.scss}line{font-family:\0000367}}
+.forums__delete .main .forums__main .back__button .back img {
+  display: inline-block;
+  width: 1.6rem;
+  margin-right: .4rem;
+}
