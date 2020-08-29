@@ -1,3 +1,5 @@
 # dongwu
-dongwu face
-study AI
+인공지능으로 당신이 어떤 캐릭터 적합함을 분석해준다!
+
+머신러닝
+AI
