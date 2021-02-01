@@ -92,7 +92,7 @@
             <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
             <div class="drag-text">
                 <img src="img/upload.svg" class="mt-5 pt-5 upload">
-                <h3 class="mb-5 pb-5 pt-4  upload-text">사진업로드!!!</h3>
+                <h3 class="mb-5 pb-5 pt-4  upload-text">다른사진업로드</h3>
             </div>
         </div>
         <div class="file-upload-content">
@@ -177,7 +177,12 @@
  data-ad-width   = "320" 
  data-ad-height  = "100"></ins> 
     </div>
-
+    <div class="mt-2 container d-flex justify-content-center ad-banner">
+<ins class="kakao_ad_area" style="display:none;" 
+ data-ad-unit    = "DAN-iIAg1ACBaDxVq48r" 
+ data-ad-width   = "300" 
+ data-ad-height  = "250"></ins></div>
+<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
     <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script> 
     <section id="yotube-bottom-link" class="mt-2 d-flex flex-column justify-content-center align-items-center" onclick="gtag('event', '아스텔리아로얄 클릭', {'event_category': '아스텔리아로얄 클릭','event_label': '하단 광고'});">
         <!-- <a href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg" class="d-flex flex-column justify-content-center align-items-center">
@@ -220,7 +225,7 @@
     </footer>
     <!-- Modal -->
   
-    <!--  ad by xlh 20200814 -->
+    <!--  ad by xlh 20210201 -->
     <div class="modal fade" id="adModal" tabindex="-1" role="dialog" aria-labelledby="adModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -230,24 +235,18 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-        
+        <!-- kakao ad --xlh 20210201 -->
     <div class="modal-body d-flex justify-content-center">
     <ins class="kakao_ad_area" style="display:none;" 
  data-ad-unit    = "DAN-iIAg1ACBaDxVq48r" 
  data-ad-width   = "300" 
- data-ad-height  = "250"></ins>    </div>
-<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
-    
-           <!-- kakao ad     <div class="modal-body d-flex justify-content-center">
-                    <ins class="kakao_ad_area" style="display:none;" 
- data-ad-unit    = "DAN-t89oh3sc0ew5" 
- data-ad-width   = "300" 
- data-ad-height  = "250"></ins>
+ data-ad-height  = "250"></ins> 
                 </div>
--->
+    
+                
                 <div class="modal-footer d-flex justify-content-center">
                     <button type="button p-2" class="try-again-btn" onclick="gaReload2();">
-                        <span class="try-again-text">다른사진시도...!!! </span>
+                        <span class="try-again-text">다른사진업로드</span>
                     </button>
                 </div>
             </div>
@@ -262,7 +261,7 @@
         }
         function gaReload2() {
             gtag('event', '다른사진시도1', {
-                'event_category': '다른사진시도'
+                'event_category': '다른사진업로드'
             });
             window.location.reload();
         }
@@ -477,7 +476,7 @@
         }
     </script>
    
-<!-- <script>
+<script>
         function iosApp() {
             document.getElementById("coupang").style.display="none";
             $("#coupang ins").hide();
@@ -493,7 +492,7 @@
             document.getElementById("yotube-mid-link").style.display="none";
             document.getElementById("yotube-bottom-link").style.display="none";
         }
-    </script>-->
+    </script>
 
 
 
